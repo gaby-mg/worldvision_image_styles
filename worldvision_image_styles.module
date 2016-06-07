@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WorldVision Image Styles feature.
+ */
+
+include_once 'worldvision_image_styles.features.inc';
