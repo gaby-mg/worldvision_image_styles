@@ -10,6 +10,24 @@
 function worldvision_image_styles_image_default_styles() {
   $styles = array();
 
+  // Exported image style: bootstrap_circle_image.
+  $styles['bootstrap_circle_image'] = array(
+    'label' => 'Bootstrap Circle Image',
+    'effects' => array(),
+  );
+
+  // Exported image style: bootstrap_rounded_image.
+  $styles['bootstrap_rounded_image'] = array(
+    'label' => 'Bootstrap Rounded Image',
+    'effects' => array(),
+  );
+
+  // Exported image style: bootstrap_thumbnail_image.
+  $styles['bootstrap_thumbnail_image'] = array(
+    'label' => 'Bootstrap Thumbnail Image',
+    'effects' => array(),
+  );
+
   // Exported image style: centered_medium.
   $styles['centered_medium'] = array(
     'label' => 'centered_medium',
@@ -447,6 +465,22 @@ function worldvision_image_styles_image_default_styles() {
           'upscale' => 1,
         ),
         'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: square_thumbnail.
+  $styles['square_thumbnail'] = array(
+    'label' => 'square_thumbnail',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 180,
+          'height' => 180,
+          'weight' => 0,
+        ),
+        'weight' => 0,
       ),
     ),
   );
