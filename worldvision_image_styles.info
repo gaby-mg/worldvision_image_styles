@@ -6,6 +6,7 @@ version = 7.x-1.0-beta1
 dependencies[] = image
 features[features_api][] = api:2
 features[image][] = bootstrap_circle_image
+features[image][] = bootstrap_circle_image_black_white
 features[image][] = bootstrap_rounded_image
 features[image][] = bootstrap_thumbnail_image
 features[image][] = centered_medium

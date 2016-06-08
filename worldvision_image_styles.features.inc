@@ -13,7 +13,36 @@ function worldvision_image_styles_image_default_styles() {
   // Exported image style: bootstrap_circle_image.
   $styles['bootstrap_circle_image'] = array(
     'label' => 'Bootstrap Circle Image',
-    'effects' => array(),
+    'effects' => array(
+      14 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 200,
+          'height' => 200,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: bootstrap_circle_image_black_white.
+  $styles['bootstrap_circle_image_black_white'] = array(
+    'label' => 'Bootstrap Circle Image (Black&White)',
+    'effects' => array(
+      15 => array(
+        'name' => 'image_desaturate',
+        'data' => array(),
+        'weight' => 1,
+      ),
+      16 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 200,
+          'height' => 200,
+        ),
+        'weight' => 2,
+      ),
+    ),
   );
 
   // Exported image style: bootstrap_rounded_image.
