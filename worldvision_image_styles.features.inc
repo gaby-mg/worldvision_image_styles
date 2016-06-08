@@ -198,6 +198,21 @@ function worldvision_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: featured_image_1200x300.
+  $styles['featured_image_1200x300'] = array(
+    'label' => 'Featured Image (1200x300)',
+    'effects' => array(
+      17 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1200,
+          'height' => 300,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: frontpage_featured.
   $styles['frontpage_featured'] = array(
     'label' => 'frontpage_featured',

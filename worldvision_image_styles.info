@@ -17,6 +17,7 @@ features[image][] = child_sponsorship_img
 features[image][] = donation_main
 features[image][] = donation_step
 features[image][] = donation_thanks
+features[image][] = featured_image_1200x300
 features[image][] = frontpage_featured
 features[image][] = full_width_2cols
 features[image][] = large_vertical
