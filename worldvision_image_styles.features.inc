@@ -30,9 +30,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: centered_medium.
   $styles['centered_medium'] = array(
-    'label' => 'centered_medium',
+    'label' => '180x126',
     'effects' => array(
-      7 => array(
+      2 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => '',
@@ -41,7 +41,7 @@ function worldvision_image_styles_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      6 => array(
+      3 => array(
         'name' => 'image_crop',
         'data' => array(
           'width' => 180,
@@ -55,9 +55,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: child_search.
   $styles['child_search'] = array(
-    'label' => 'child_search',
+    'label' => 'Child Slider (109x147)',
     'effects' => array(
-      24 => array(
+      4 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 109,
@@ -70,9 +70,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: child_search_big.
   $styles['child_search_big'] = array(
-    'label' => 'child_search_big',
+    'label' => 'Child Slider (207x278)',
     'effects' => array(
-      25 => array(
+      5 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 207,
@@ -85,9 +85,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: child_sponsorship_child_img.
   $styles['child_sponsorship_child_img'] = array(
-    'label' => 'child_sponsorship_child_img',
+    'label' => 'Child Sponsorship 250x333',
     'effects' => array(
-      2 => array(
+      6 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 250,
@@ -100,9 +100,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: child_sponsorship_img.
   $styles['child_sponsorship_img'] = array(
-    'label' => 'child_sponsorship_img',
+    'label' => 'Child Sponsorship 225x140',
     'effects' => array(
-      1 => array(
+      7 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 225,
@@ -201,9 +201,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: large_vertical.
   $styles['large_vertical'] = array(
-    'label' => 'Large_vertical',
+    'label' => 'Large (480x600)',
     'effects' => array(
-      51 => array(
+      12 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 480,
@@ -333,9 +333,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: news_related.
   $styles['news_related'] = array(
-    'label' => 'news_related',
+    'label' => 'Related News (159x112)',
     'effects' => array(
-      11 => array(
+      8 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 159,
@@ -386,6 +386,21 @@ function worldvision_image_styles_image_default_styles() {
         'data' => array(
           'width' => 245,
           'height' => 160,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: related_news_318x224.
+  $styles['related_news_318x224'] = array(
+    'label' => 'Related News (318x224)',
+    'effects' => array(
+      13 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 318,
+          'height' => 224,
         ),
         'weight' => 1,
       ),
@@ -472,24 +487,14 @@ function worldvision_image_styles_image_default_styles() {
   // Exported image style: square_thumbnail.
   $styles['square_thumbnail'] = array(
     'label' => 'square_thumbnail',
-    'effects' => array(
-      1 => array(
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => 180,
-          'height' => 180,
-          'weight' => 0,
-        ),
-        'weight' => 0,
-      ),
-    ),
+    'effects' => array(),
   );
 
   // Exported image style: square_thumbnail78.
   $styles['square_thumbnail78'] = array(
-    'label' => 'square_thumbnail78',
+    'label' => 'Thumbnail (78x78)',
     'effects' => array(
-      28 => array(
+      9 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 78,
@@ -502,9 +507,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: square_thumbnail96.
   $styles['square_thumbnail96'] = array(
-    'label' => 'square_thumbnail96',
+    'label' => 'Thumbnail (96x96)',
     'effects' => array(
-      27 => array(
+      10 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 96,
@@ -517,9 +522,9 @@ function worldvision_image_styles_image_default_styles() {
 
   // Exported image style: staff.
   $styles['staff'] = array(
-    'label' => 'staff',
+    'label' => 'Staff (180x200)',
     'effects' => array(
-      21 => array(
+      11 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 180,

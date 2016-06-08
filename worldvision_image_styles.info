@@ -30,6 +30,7 @@ features[image][] = news_related
 features[image][] = padrino
 features[image][] = project_map
 features[image][] = regalo_solidario_front
+features[image][] = related_news_318x224
 features[image][] = solidarity_birthday
 features[image][] = solidarity_gift_card
 features[image][] = solidarity_gift_product
