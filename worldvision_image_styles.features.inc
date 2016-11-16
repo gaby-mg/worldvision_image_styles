@@ -5,6 +5,15 @@
  */
 
 /**
+ * Implements hook_ctools_plugin_api().
+ */
+function worldvision_image_styles_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "file_entity" && $api == "file_default_displays") {
+    return array("version" => "1");
+  }
+}
+
+/**
  * Implements hook_image_default_styles().
  */
 function worldvision_image_styles_image_default_styles() {
@@ -54,7 +63,16 @@ function worldvision_image_styles_image_default_styles() {
   // Exported image style: bootstrap_thumbnail_image.
   $styles['bootstrap_thumbnail_image'] = array(
     'label' => 'Bootstrap Thumbnail Image',
-    'effects' => array(),
+    'effects' => array(
+      18 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 207,
+          'height' => 278,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: centered_medium.
